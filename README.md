@@ -1,20 +1,13 @@
-![Vercel](https://vercelbadge.vercel.app/api/Sangaibisi/commus-landing-page)
-![License](https://img.shields.io/github/license/Sangaibisi/commus-landing-page)
-![Last Commit](https://img.shields.io/github/last-commit/Sangaibisi/commus-landing-page)
+# GateOps – Smart SDLC Coordination Platform
 
-![Open issues](https://img.shields.io/github/issues/Sangaibisi/commus-landing-page)
-![Pull Requests](https://img.shields.io/github/issues-pr/Sangaibisi/commus-landing-page)
+![GateOps banner](./public/architecture_pro.svg)
 
-# COMMUS – Smart SDLC Coordination Platform
-
-![COMMUS banner](./public/architecture_pro.svg)
-
-> **Built by engineers, for engineering teams — COMMUS turns process friction into flow.**
+> **Built by engineers, for engineering teams — GateOps turns process friction into flow.**
 
 ---
 
-## ✨ What is COMMUS?
-COMMUS is an enterprise-grade platform that eliminates chaotic chat-based coordination in software projects. By enforcing **branch freeze / unfreeze rules** at the Git layer, it gives QA and Dev teams full control over multi-environment release workflows.
+## ✨ What is GateOps?
+GateOps is an enterprise-grade platform that eliminates chaotic chat-based coordination in software projects. By enforcing **branch freeze / unfreeze rules** at the Git layer, it gives QA and Dev teams full control over multi-environment release workflows.
 
 - **Prevent accidental pushes** to critical environments with one click.
 - **Multi-VCS support:** Bitbucket, GitLab and GitHub (self-hosted).
@@ -22,21 +15,21 @@ COMMUS is an enterprise-grade platform that eliminates chaotic chat-based coordi
 - **Role-based access** and **real-time dashboards** for total visibility.
 
 ## 🚀 Live Demo
-A live instance is deployed on Vercel → <https://commus-landing-page.vercel.app>
+A live instance is deployed on Vercel → <https://gateops-landing-page.vercel.app>
 
 ## 🖼 Architecture
 See `public/architecture_pro.svg` for the high-level data flow.
 
 ```
-Developer → Git Repo → Pre-receive Hook → COMMUS API (Policy Engine) → Allow / Deny
+Developer → Git Repo → Pre-receive Hook → GateOps API (Policy Engine) → Allow / Deny
                                                ↘ Slack / Teams Alerts
 ```
 
 ## 🏁 Quick Start
 ```bash
 # Clone
-git clone https://github.com/<your-org>/commus-landing-page.git
-cd commus-landing-page
+git clone https://github.com/<your-org>/GateOps-landing-page.git
+cd GateOps-landing-page
 
 # Install dependencies
 npm install
@@ -72,4 +65,4 @@ npm run build && npm start
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-Made with ❤️ by COMMUS core team.
+Made with ❤️ by GateOps core team.
